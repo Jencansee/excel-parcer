@@ -1,0 +1,38 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.description",
+    "version": "1.0",
+    "interface_version": 2,
+    "init_once": true,
+    "locale": [ "ru", "en" ],
+    "installation": true,
+    "support": {
+      "link": "https://www.sorp.ae/",
+      "email": "info@sorp.ae"
+    }
+  },
+  "locations": [
+    "lcard",
+    "card_sdk"
+  ],
+  "tour": {
+    "is_tour": true,
+    "tour_images": {
+      "ru": [
+        "/images/logo_main.png",
+        "/images/logo_main.png",
+        "/images/logo_main.png"
+      ]
+    },
+    "tour_description": "widget.description"
+  },
+  "settings": {
+    "login": {
+      "name": "settings.login",
+      "type": "text",
+      "required": true
+    }
+  }
+}
