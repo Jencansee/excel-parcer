@@ -23,10 +23,3 @@ window.fieldsFromAMO = {
 
 // Типовая таблица - https://sorp.ae/assets/files/ExcelParcer/fullTableForParcer.xlsx (заметки удалить оттуда при работе с формой)
 // Скрипт тестился на этой таблице (т.е 100% рабочая) - https://sorp.ae/assets/files/ExcelParcer/workingTable.xlsx
-
-// Информация для workbook = XLSX.read(data, {type: 'binary'});
-  // If parser doesn't work for .xls files then make conditional operators for
-  // changing data variable from e.target.result on
-  // data = new Uint8Array(e.target.result);
-  // and change workbook XLSX.read type on 'array'
-  // and change reader.readAsBinaryString on reader.readAsArrayBuffer

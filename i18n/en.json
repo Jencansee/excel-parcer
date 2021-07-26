@@ -1,9 +1,9 @@
 {
     "widget":{
-        "name":"Парсер Excel",
-        "short_description":"Обработывает Excel таблицы на прямую в сделки",
-        "description": "Этот парсер позволяет обработать Excel таблицы на прямую в сделки, поддерживает .xls и .xlsx",
-        "tour_description": "Этот парсер позволяет обработать Excel таблицы на прямую в сделки"
+        "name":"Parcer Excel",
+        "short_description":"Parcers excel table into leads",
+        "description": "The parcer helps fill forms more quickly, supports .xls and .xlsx file formats",
+        "tour_description": "The parcer helps fill forms more quickly"
     },
-    "settings":{ "login":"Логин / Адрес" }
+    "settings":{ "login":"Login / URL address" }
 }
