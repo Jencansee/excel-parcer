@@ -1,9 +1,9 @@
 {
     "widget":{
-        "name":"Parcer Excel",
-        "short_description":"Parcers excel table into leads",
-        "description": "The parcer helps fill forms more quickly, supports .xls and .xlsx file formats",
-        "tour_description": "The parcer helps fill forms more quickly"
+        "name":"Parser Excel",
+        "short_description":"Parsers excel table into leads",
+        "description": "The parser helps fill forms more quickly, supports .xls and .xlsx file formats",
+        "tour_description": "The parser helps fill forms more quickly"
     },
     "settings":{ "login":"Login / URL address" }
 }
