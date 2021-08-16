@@ -51,7 +51,7 @@ define(['jquery', 'underscore', 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.1
         
         // Чтобы лишний раз не проверять всё, вынести резервы в отдельные переменные будет логичнее
         let phoneNumbers = [], emailNumbers = [];
-        Object.entries(fieldsFromAMO).forEach(el => {
+        Object.entries(fieldsFromAMO).map(el => {
           if(el[1] == 'reservedPhone') phoneNumbers.push(+el[0]);
           else if(el[1] == 'reservedEmail') emailNumbers.push(+el[0]); 
         });

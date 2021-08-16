@@ -21,5 +21,4 @@ window.fieldsFromAMO = {
   18: "CFV[1014973]"
 };
 
-// Типовая таблица - https://sorp.ae/assets/files/ExcelParcer/fullTableForParcer.xlsx (заметки удалить оттуда при работе с формой)
 // Скрипт тестился на этой таблице (т.е 100% рабочая) - https://sorp.ae/assets/files/ExcelParcer/workingTable.xlsx
