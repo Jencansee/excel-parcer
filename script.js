@@ -28,7 +28,7 @@ define(['jquery', 'underscore', 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.1
               <svg id="fileHandler__spinner" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33px" height="9px" viewBox="0 0 128 35" xml:space="preserve"><g><circle fill="#184c60" cx="17.5" cy="17.5" r="17.5"/><animate attributeName="opacity" dur="1800ms" begin="0s" repeatCount="indefinite" keyTimes="0;0.167;0.5;0.668;1" values="0.3;1;1;0.3;0.3"/></g><g><circle fill="#184c60" cx="110.5" cy="17.5" r="17.5"/><animate attributeName="opacity" dur="1800ms" begin="0s" repeatCount="indefinite" keyTimes="0;0.334;0.5;0.835;1" values="0.3;0.3;1;1;0.3"/></g><g><circle fill="#184c60" cx="64" cy="17.5" r="17.5"/><animate attributeName="opacity" dur="1800ms" begin="0s" repeatCount="indefinite" keyTimes="0;0.167;0.334;0.668;0.835;1" values="0.3;0.3;1;1;0.3;0.3"/></g></svg>
               <input type="file" name="fileHandler" id="fileHandler">
             </div>
-            <a class="fileHandler__reference" href="https://sorp.ae/assets/files/ExcelParcer/fullTableForParcer.xlsx" target="_blank" title="Скачать пример excel таблицы">Пример заполненной таблицы</a>
+            <a class="fileHandler__reference" href="https://github.com/Jencansee/excel-parcer/raw/master/fullTableForParcer.xlsx" target="_blank" title="Скачать пример excel таблицы">Пример заполненной таблицы</a>
           </label>
         `);
         
@@ -79,7 +79,6 @@ define(['jquery', 'underscore', 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.1
                 $(`[name='${name}']`).trigger('change'); // тригерит инпут и делает вид будто в него вписали данные
               } 
               else errorInformer(`Не могу найти поле '${name}' для контента '${newValue}', не верно указан аттрибут name AMO поля`)
-              // console.log(name, newValue); //TODO Удобно для дебага
             };
           
             // Эта функция меняет значение инпута, но ловит его через data-params
@@ -111,7 +110,6 @@ define(['jquery', 'underscore', 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.1
               } else {
                 let currentCellAnswerValue = Object.entries(currentCellWithAnswers)[1][1];
                 if (fieldsFromAMO[i] != undefined) {
-                  // console.log(i); //TODO Удобно для дебага
                   // newFormHTMLFlag - переменная содержащая элемент, который не может находится вблизи нашей кнопки в уже существующей карточке
                   if(document.querySelector('.fileHandler__label').nextElementSibling == newFormHTMLFlag) {
                     // Ищим зарезервирумые значения

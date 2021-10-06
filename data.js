@@ -8,7 +8,6 @@ window.fieldsFromAMO = {
   5: "CFV[852815]", 
   6: "CFV[914236]",
   7: "CFV[914246]",
-  8: "CFV[914336]", 
   9: "CFV[914534]", 
   10: "CFV[914536]", 
   11: "CFV[914540]", 
@@ -20,5 +19,3 @@ window.fieldsFromAMO = {
   17: "CFV[1014977]",
   18: "CFV[1014973]"
 };
-
-// Скрипт тестился на этой таблице (т.е 100% рабочая) - https://sorp.ae/assets/files/ExcelParcer/workingTable.xlsx
